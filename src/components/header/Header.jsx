@@ -7,7 +7,7 @@ const Header = () => {
 
       {/* hero */}
       <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
-        <h1>Hi, I'm Rafi</h1>
+        <h1>Hi, I'm Sapaaa</h1>
         <h2>I am a "Bismillah" Web Developer</h2>
         <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
       </section>
