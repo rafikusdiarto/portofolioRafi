@@ -1,0 +1,7 @@
+nav{
+    z-index: 2 !important;
+}
+
+ul li a{
+    font-size: 100px;
+}
