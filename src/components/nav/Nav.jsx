@@ -1,10 +1,13 @@
 import React from 'react'
 import './nav.css'
+import Spinner from 'react-bootstrap/Spinner';
+
 
 
 const nav = () => {
   return (
     <>
+    <Spinner animation="grow" />;
       <nav class="navbar navbar-expand-lg fixed-top bg-secondary justify-content-between">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
