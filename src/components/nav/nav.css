@@ -1,7 +1,42 @@
+
 nav{
     z-index: 2 !important;
+    margin-bottom: 100px !important;
+    background-color: white;
 }
 
-ul li a{
-    font-size: 100px;
+ul{
+    font-size: 20px;
+    margin-right: 200px;
 }
+
+.navbar {
+    padding: 0;
+}
+
+.navbar li {
+position: relative;
+}
+
+.navbar a, .navbar a:focus {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 0 10px 100px;
+font-size: 20px;
+color: #2c4964;
+white-space: nowrap;
+transition: 0.3s;
+}
+
+.navbar a i, .navbar a:focus i {
+font-size: 12px;
+line-height: 0;
+margin-left: 5px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+color: #d43076;
+}
+
+  

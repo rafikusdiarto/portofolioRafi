@@ -1,0 +1,19 @@
+.skills .progress-bar {
+    transition: 0.9s;
+    background-color: #dd5a92;
+}
+
+.skills-content p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: auto;
+    justify-content: end;
+    text-align: end;
+}
+
+.skills-content{
+    padding: auto;
+}
+.skills-content span{
+    margin-top: 100px;
+}

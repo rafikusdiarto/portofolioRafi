@@ -1,31 +1,25 @@
 import React from 'react'
 import './nav.css'
-import Spinner from 'react-bootstrap/Spinner';
-
-
 
 const nav = () => {
   return (
     <>
-    <Spinner animation="grow" />;
-      <nav class="navbar navbar-expand-lg fixed-top bg-secondary justify-content-between">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#"><b>Rafi.</b></a>
-          <ul>
-            <li>
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Portofolio</a>
-            </li>
-          </ul>
-        <div class="btn-group" role="group">
-          <a class="nav-link" href="https://github.com/rafikusdiarto/rafiescobar"><i class="fa-brands fa-github fa-5x"></i></a>
-          <a class="nav-link" href="https://web.facebook.com/profile.php?id=100005698544779"><i class="fa-brands fa-facebook-f"></i></a>
-          <a class="nav-link" href="https://www.instagram.com/muhmmad.rafii/"><i class="fa-brands fa-instagram"></i></a>
-          <a class="nav-link" href="https://www.linkedin.com/in/muhammad-rafi-kusdiarto-265a092fa-xl18/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <nav className="navbar sticky-top navbar-expand-lg shadow-lg mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#"><b>Rafi.</b></a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>

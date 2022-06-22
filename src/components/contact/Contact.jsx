@@ -4,19 +4,13 @@ import './contact.css'
 export const contact = () => {
   return (
     <>
-      <section id="contact" class="contact section-bg">
+      <section id="contact" class="contact section-bg my-5">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
         <div class="row">
 
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>Lonely</h3>
+              <h3><b>Rafi.</b></h3>
               <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
               <div class="social-links">
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -54,9 +48,6 @@ export const contact = () => {
               </div>
               <div class="form-group mt-3">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required/>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required/>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
