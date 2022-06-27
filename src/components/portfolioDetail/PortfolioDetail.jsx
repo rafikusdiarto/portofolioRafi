@@ -1,10 +1,10 @@
 import React from 'react'
-import './portfolio.css'
+import './portfolioDetail.css'
 
-const Portfolio = () => {
+const PortfolioDetail = () => {
   return (
     <>
-    <section id="portfolio" class="portfolio section-bg my-5">
+      <section id="portfolio" class="portfolio section-bg my-5">
       <div class="container">
         <div class="section-title">
           <h2>Project</h2>
@@ -61,9 +61,9 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </section>  
+      </section>
     </>
   )
 }
 
-export default Portfolio
+export default PortfolioDetail
