@@ -13,14 +13,8 @@ const nav = () => {
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <Link to="/">Home</Link>
-                <Link to="/portfolioDetail">Portfolio</Link>
-              {/* <li class="nav-item">
-                <a>
-                </a>
-              </li>
-              <li class="nav-item">
-              </li> */}
+                <Link to="/" style={{textDecoration: 'none'}}>Home</Link>
+                <Link to="/portfolioDetail" style={{textDecoration: 'none'}}>Portfolio</Link>
             </ul>
           </div>
         </div>
