@@ -11,14 +11,16 @@ const nav = () => {
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/">Home</a>
+                <Link to="/">Home</Link>
+                <Link to="/portfolioDetail">Portfolio</Link>
+              {/* <li class="nav-item">
+                <a>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/portfolioDetail">Portfolio</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
