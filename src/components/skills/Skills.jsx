@@ -15,18 +15,18 @@ const Experience = () => {
             <div class="col-lg-6">
               <span>HTML/CSS</span>
               <p>90%</p>
-              <ProgressBar animated now={90} />
+              <ProgressBar variant="info" animated now={90} />
               <span>Javascript</span>
               <p>70%</p>
-              <ProgressBar animated now={70} />
+              <ProgressBar variant="info" animated now={70} />
             </div>
             <div class="col-lg-6">
               <span>PHP</span>
               <p>80%</p>
-              <ProgressBar animated now={80} />
+              <ProgressBar variant="info" animated now={80} />
               <span>Photoshop</span>
               <p>50%</p>
-              <ProgressBar animated now={50} />
+              <ProgressBar variant="info" animated now={50} />
             </div>
           </div>
         </div>

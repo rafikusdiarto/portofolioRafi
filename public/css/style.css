@@ -1,10 +1,11 @@
 
 /* General */
-
 body {
-  font-family: "Open Sans", sans-serif;
+  background: rgb(34,193,195);
+  background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(224,200,147,1) 100%);
 }
 
 a, p, h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: poppins;
+  color: black;
 }

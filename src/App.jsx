@@ -10,19 +10,17 @@ import PortfolioDetail from './components/portfolioDetail/PortfolioDetail'
 import { Route, Routes } from "react-router-dom";
 
 
+
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<About/>}/>
-        <Route path='/' element={<Skills/>}/>
-        <Route path='/' element={<Resume/>}/>
-        <Route path='/' element={<Portfolio/>}/>
-        <Route path='/' element={<Contact/>}/>
-        <Route path='/' element={<Footer/>}/>
-        <Route path='/portfolioDetail' element={<PortfolioDetail/>}/>
-      </Routes>
+      <About/>
+      <Skills/>
+      <Resume/>
+      <Portfolio/>
+      <Contact/>
+      <Footer/>
+
     </>
   )
 }
