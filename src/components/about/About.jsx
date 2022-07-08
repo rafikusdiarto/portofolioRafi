@@ -33,7 +33,7 @@ export const about = () => {
                 <p>I am a frontend web developer with more than 2 months experience. I use Frontend libraries like ReactJS.</p>
                 <div class="my-5">
                   <a href='https://api.whatsapp.com/send/?phone=6287809680106&text&app_absent=0' class="btn btn-success btn-lg me-3">Contact Me</a>
-                  <a href='https://rafikusdiarto-webportfolio.netlify.app/CV Muhammad Rafi Kusdiarto.pdf' class="btn btn-outline-success btn-lg" download>Download CV</a>
+                  <a href='/CV Muhammad Rafi Kusdiarto.pdf' class="btn btn-outline-success btn-lg" download>Download CV</a>
                 </div>
               </div>  
             </div>
