@@ -14,26 +14,23 @@ const Resume = () => {
 
             <div class="row">
             <div class="col-lg-6">
-
-                <h3 class="resume-title">Education</h3>
+                <h3 class="resume-title">Summary</h3>
                 <div class="resume-item">
-                <h4>SMPN 1 Sidoarjo</h4>
-                <h5>2014 - 2017</h5>
-                <p><em>Sidoarjo, East Java</em></p>
+                <h4>Muhammad Rafi Kusdiarto</h4>
+                <p><em>Frontend web developer with more than 2 months of experience with HTML,CSS, JavascriptFrontend libraries like Bootstrap, and ReactJS.</em></p>
+                <p>Sidoarjo, Jawa Timur, ID</p>
+                <p>0878-0968-0106</p>
+                <p>rafikusdiarto1707@gmail.com</p>
                 </div>
                 <div class="resume-item">
-                <h4>SMAN 1 Krian</h4>
-                <h5>2017 - 2020</h5>
-                <p><em>Sidoarjo, East Java</em></p>
-                </div>
-                <div class="resume-item">
-                <h4>Informatika - Universitas Negeri Jember</h4>
-                <h5>2020 - Present</h5>
-                <p><em>Jember, East Java</em></p>
+                <h4>Bachelor in Informatics</h4>
+                <h5>2020 - 2024 (Expected)</h5>
+                <p><em>University of Jember, Jember, ID</em></p>
+                <p>Course: Algorithms; Web Development; Object-Oriented Programming; Software Analysis and Design</p>
                 </div>
             </div>
             <div class="col-lg-6">
-                <h3 class="resume-title">Contribute On</h3>
+                <h3 class="resume-title">Experience</h3>
                 <div class="resume-item">
                 <h4>HMIF UNEJ - Divisi Penelitian dan Pengembangan</h4>
                 <h5>2021 - Present</h5>
