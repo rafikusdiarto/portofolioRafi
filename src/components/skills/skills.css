@@ -1,7 +1,3 @@
-.skills .progress-bar {
-    transition: 0.9s;
-    background-color: #dd5a92;
-}
 
 .skills-content p{
     font-size: 12px;
@@ -14,6 +10,12 @@
 .skills-content{
     padding: auto;
 }
-.skills-content span{
-    margin-top: 100px;
-}
+
+.progress-bar{
+    background-color: rgb(62, 122, 235);
+    height: 15px;
+    border-radius: 1rem;
+    transition: 1s ease;
+    transition-delay: 0.5s;
+  }
+
