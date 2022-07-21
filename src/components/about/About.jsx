@@ -14,7 +14,7 @@ export const about = () => {
             <div class="row d-flex my-5">
               <img src="../assets/img/me.jpg" class="image col-xl-5 d-flex " alt="" />
               <div class="col-6 mt-5">
-                <div class="mask-custom shadow-lg">
+                <div class="mask-custom shadow-lg mt-4">
                   <div class="card-body p5 ">
                     <h2 class="my-2">Hello I'm</h2>
                     <h1><span>Muhammad Rafi Kusdiarto</span></h1>
