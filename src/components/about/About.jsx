@@ -8,10 +8,15 @@ export const about = () => {
     <>
     {/* about */}
     <section id="about">
-      <div class="hero">
+      
+      {/* <div class="jumbotron p-5">
+        <h1>Jumbotron Example</h1>
+        <p>Lorem ipsum...</p>
+      </div> */}
+      <div class="jumbotron">
         <div class="container fluid">
           <div class="row justify-content-center">
-            <div class="row d-flex my-5">
+            <div class="foto row d-flex my-5">
               <img src="../assets/img/me.jpg" class="image col-xl-5 d-flex " alt="" />
               <div class="col-6 mt-5">
                 <div class="mask-custom shadow-lg mt-4">
